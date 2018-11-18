@@ -3,9 +3,7 @@
   hosts:  localhost
   connection: local
   gather_facts: false
-
   tasks:
-
   - name: Create Inventory on Tower
     shell: "tower-cli inventory create -n 'static inventory --organization ZIONL"
     register: inventory_output
