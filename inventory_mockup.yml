@@ -1,0 +1,15 @@
+[access]
+mockup_N5K1-dcac-2.mgt.airbus.corp
+mockup_N5K1-dcac-1.mgt.airbus.corp
+
+[aggreg]
+mockup_N5K1-dcag.mgt.airbus.corp
+
+[distri]
+10.126.127.31
+10.126.127.32
+
+[nxos:children]
+access
+aggreg
+distri
